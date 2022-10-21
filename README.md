@@ -55,7 +55,7 @@ from kafka import KafkaProducer
 Before executing our python script, you will need first to retrieve some connection information about your Aiven Kafka cluster: host, port, access key, access certificate and CA certificate. To find those information, go to the service page of your kafka cluster on Aiven console:
 
 <h1 align="center">
-  <img src="images/service_page.png" alt="Aiven Kafka service page" width="400"/>
+  <img src="images/service_page.png" alt="Aiven Kafka service page" width="600"/>
 </h1>
 
 Update the `demo.py` file to configure your kafka host and port:
@@ -89,8 +89,8 @@ Now that we have produce some messages in our Kafka cluster, let's read those in
 Go to you **kafka service page** and under the **"Topics" tab**. Then click on the **"orders-topic"** > **"Message" button** and finaly change the format to **"json"** before hitting the **"Fetch Message" button**.
 
 <h1 align="center">
-  <img src="images/topic_info.png" alt="Topic info" width="400"/>
-  <img src="images/fetch.png" alt="Fetch messages" width="400"/>
+  <img src="images/topic_info.png" alt="Topic info" width="600"/>
+  <img src="images/fetch.png" alt="Fetch messages" width="600"/>
 </h1>
 
 To conclude this introduction, we will fetch some metrics about our Kafka cluster thanks to Aiven Grafana and InfluxDB integrations.
