@@ -107,7 +107,7 @@ Here is an example of the `kafka.server:BrokerTopicMetrics.TotalProduceRequestsP
 
 If you want to go deeper on Aiven and Kafka subjects, please see our complete documentation and do not hesitate to browse our technical blog!
 
-[https://aiven.io/kafka](https://aiven.io/kafka)
-[https://aiven.io/grafana](https://aiven.io/grafana)
-[https://docs.aiven.io/docs/products/kafka/getting-started.html](https://docs.aiven.io/docs/products/kafka/getting-started.html)
-[https://aiven.io/blog](https://aiven.io/blog)
+* [https://aiven.io/kafka](https://aiven.io/kafka)
+* [https://aiven.io/grafana](https://aiven.io/grafana)
+* [https://docs.aiven.io/docs/products/kafka/getting-started.html](https://docs.aiven.io/docs/products/kafka/getting-started.html)
+* [https://aiven.io/blog](https://aiven.io/blog)
