@@ -34,8 +34,8 @@ terraform apply
 And ... voilà!
 
 <h1 align="center">
-  <img src="images/terraform.png" alt="Terraform" width="400"/>
-  <img src="images/services.png" alt="Aiven console" width="400"/>
+  <img src="images/terraform.png" alt="Terraform" width="600"/>
+  <img src="images/services.png" alt="Aiven console" width="600"/>
 </h1>
 
 *You want more information on Aiven Terraform Provider? [You can find everything you need here!](https://registry.terraform.io/providers/aiven/aiven/latest/docs)*
@@ -102,7 +102,7 @@ On the left panel you can go to the "Explore" page, and then you can query every
 Here is an example of the `kafka.server:BrokerTopicMetrics.TotalProduceRequestsPerSec.mean` metrics after sending several messages to our Kafka cluster:
 
 <h1 align="center">
-  <img src="images/grafana.png" alt="Grafana" width="400"/>
+  <img src="images/grafana.png" alt="Grafana" width="600"/>
 </h1>
 
 If you want to go deeper on Aiven and Kafka subjects, please see our complete documentation and do not hesitate to browse our technical blog!
