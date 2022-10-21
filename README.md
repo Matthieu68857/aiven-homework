@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="images/aiven_kafka.png" alt="Aiven and Kafka" width="300"/>
+  <img src="images/aiven.png" alt="Aiven and Kafka" width="300"/>
 </h1>
 
 # Aiven Kafka Quickstart with Python
@@ -8,7 +8,7 @@ Kafka is an amazing tool allowing you to build powerful and scalable event-drive
 Python is one of the most popular programming language in recent years.
 Let's see how we can use Aiven Kafka managed service and publish some messages using Python, in only a few minutes!
 
-## Deploying our infrastructure
+## Deploying the infrastructure
 
 In this quick demo, we will deploy 3 services in our Aiven project:
 * A Kafka cluster with a single topic
@@ -33,7 +33,10 @@ terraform apply
 
 And ... voilà!
 
-<SCREENSHOT terraform + Aiven services>
+<h1 align="center">
+  <img src="images/terraform.png" alt="Terraform" width="400"/>
+  <img src="images/services.png" alt="Aiven console" width="400"/>
+</h1>
 
 *You want more information on Aiven Terraform Provider? [You can find everything you need here!](https://registry.terraform.io/providers/aiven/aiven/latest/docs)*
 
@@ -51,7 +54,9 @@ from kafka import KafkaProducer
 
 Before executing our python script, you will need first to retrieve some connection information about your Aiven Kafka cluster: host, port, access key, access certificate and CA certificate. To find those information, go to the service page of your kafka cluster on Aiven console:
 
-<SCREENSHOT page aiven kafka>
+<h1 align="center">
+  <img src="images/service_page.png" alt="Aiven Kafka service page" width="400"/>
+</h1>
 
 Update the `demo.py` file to configure your kafka host and port:
 
@@ -83,7 +88,10 @@ Now that we have produce some messages in our Kafka cluster, let's read those in
 
 Go to you **kafka service page** and under the **"Topics" tab**. Then click on the **"orders-topic"** > **"Message" button** and finaly change the format to **"json"** before hitting the **"Fetch Message" button**.
 
-<SCREENSHOT x2 ou 3>
+<h1 align="center">
+  <img src="images/topic_info.png" alt="Topic info" width="400"/>
+  <img src="images/fetch.png" alt="Fetch messages" width="400"/>
+</h1>
 
 To conclude this introduction, we will fetch some metrics about our Kafka cluster thanks to Aiven Grafana and InfluxDB integrations.
 
@@ -93,11 +101,13 @@ Go to your Grafana service page, and open the Service URI.
 On the left panel you can go to the "Explore" page, and then you can query every metrics you want!
 Here is an example of the `kafka.server:BrokerTopicMetrics.TotalProduceRequestsPerSec.mean` metrics after sending several messages to our Kafka cluster:
 
-<SCREENSHOT grafana>
+<h1 align="center">
+  <img src="images/grafana.png" alt="Grafana" width="400"/>
+</h1>
 
 If you want to go deeper on Aiven and Kafka subjects, please see our complete documentation and do not hesitate to browse our technical blog!
 
-https://aiven.io/kafka
-https://aiven.io/grafana
-https://docs.aiven.io/docs/products/kafka/getting-started.html
-https://aiven.io/blog
+[https://aiven.io/kafka](https://aiven.io/kafka)
+[https://aiven.io/grafana](https://aiven.io/grafana)
+[https://docs.aiven.io/docs/products/kafka/getting-started.html](https://docs.aiven.io/docs/products/kafka/getting-started.html)
+[https://aiven.io/blog](https://aiven.io/blog)
